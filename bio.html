@@ -1,0 +1,101 @@
+<!doctype html>
+<!--tells where the code starts and ends-->
+<html lang="en">
+    <!--the metadata!-->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>melisas portfolio</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Bonbon&family=Yuji+Mai&display=swap" rel="stylesheet" />
+        <style>
+            /*reminder coding*/
+            .remcontent {
+                display: flex;
+                width: 100%;
+                align-items: center;
+                justify-content: space-between;
+                word-wrap: break-word;
+                box-sizing: border-box;
+            }
+            /*image centering*/
+            .projectimg {
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                height: auto;
+                box-sizing: border-box;
+            }
+            img {
+                width: 40%;
+                border: 1px solid var(--mid-color);
+            }
+            .arrow {
+                display: flex;
+                font-size: medium;
+                justify-content: end;
+            }
+        </style>
+    </head>
+
+    <!--contains all visible content!-->
+    <body class="scroll">
+        <div id="container">
+            <div id="header">
+                <a href="index.html"><h1 class="title">melisa wortham's portfolio</h1></a>
+            </div>
+
+            <!--navigation bar (links)-->
+            <main>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="bio.html">bio</a></li>
+                        <li>
+                            <a href="swplogo.html">projects</a>
+                            <ul class="subitems">
+                                <li><a href="swplogo.html">swp logo</a></li>
+                                <li><a href="sisee.html">sisee</a></li>
+                                <li><a href="natgirl.html">"naturally" a girl</a></li>
+                                <li><a href="gamb.html">gamble</a></li>
+                                <li><a href="extras.html">extras</a></li>
+                                <li><a href="ref.html">references</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="tests.html">tests</a></li>
+                    </ul>
+                </div>
+            </main>
+
+            <!--the main content-->
+            <div class="main">
+                <div class="section-title">bio</div>
+                <div class="content">
+                    <div class="projectimg">
+                        <img src="flower.gif">
+                    </div>
+                    <div class="subtext"><p>flower persona icon (@aflowerfriend, me)</p></div>
+                    <p>hi, i'm melisa elaine but on government documents i'm melisa wortham but that's my dad's last name
+                    and we don't talk about him :) so hi, i also go by flower as my online alias and
+                    i try to make cute art that conveys my overwhelming emotions well! i'm a very sentimental
+                    person and love to share things with others, yay</p>
+                    <div class="arrow"><a href="index.html">⌂ home</a></div>
+                </div>
+            </div>
+            <div class="reminder">
+                <div class="remcontent">
+                    <div class="savetext">make sure you [CMD+S!]</div>
+                    <div class="saveimg">
+                        <img src="blinkiesCafe-iu.gif" alt="blinkie save" class="center-gif" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--update/footer-->
+        <div class="update">last updated 12/9/24</div>
+    </body>
+</html>

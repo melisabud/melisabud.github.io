@@ -1,0 +1,121 @@
+<!doctype html>
+<!--tells where the code starts and ends-->
+<html lang="en">
+    <!--the metadata!-->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>melisas portfolio</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Bonbon&family=Yuji+Mai&display=swap" rel="stylesheet" />
+        <style>
+            /*reminder coding*/
+            .remcontent {
+                display: flex;
+                width: 100%;
+                align-items: center;
+                justify-content: space-between;
+                word-wrap: break-word;
+                box-sizing: border-box;
+            }
+            /*image centering*/
+            .projectvid {
+                display: flex;
+                border: 1px solid var(--mid-color);
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                height: auto;
+                position: static;
+                margin: auto;
+                overflow: visible;
+            }
+            .iframe {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                border: 0;
+            }
+            .arrow {
+                display: flex;
+                font-size: medium;
+                justify-content: end;
+            }
+        </style>
+    </head>
+
+    <!--contains all visible content!-->
+    <body class="scroll">
+        <div id="container">
+            <div id="header">
+                <a href="index.html"><h1 class="title">melisa wortham's portfolio</h1></a>
+            </div>
+
+            <!--navigation bar (links)-->
+            <main>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="bio.html">bio</a></li>
+                        <li>
+                            <a href="swplogo.html">projects</a>
+                            <ul class="subitems">
+                                <li><a href="swplogo.html">swp logo</a></li>
+                                <li><a href="sisee.html">sisee</a></li>
+                                <li><a href="natgirl.html">"naturally" a girl</a></li>
+                                <li><a href="gamb.html">gamble</a></li>
+                                <li><a href="extras.html">extras</a></li>
+                                <li><a href="ref.html">references</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="tests.html">tests</a></li>
+                    </ul>
+                </div>
+            </main>
+
+            <!--the main content-->
+            <div class="main">
+                <div class="section-title">project 3</div>
+                <div class="content">
+                    <div class="imagetitlebg">
+                        <div class="imagetitle"><p>"'naturally' a girl" prelinger archive edit</p></div>
+                    </div>
+                    <br />
+                    <div class="projectvid">
+                        <iframe
+                            width="560" height="315"
+                            src="https://www.youtube.com/embed/c9GvEunDTa8?si=l6Kx1vhyY0EThcob"
+                            title="yt vid"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="subtext"><p>"'naturally' a girl," video on being transfem</p></div>
+                    <p>
+                        <strong>statement:</strong> although i am not transgender, i think about my fellow lgbt+ friends who are. as a disabled lesbian, i can relate to the struggles of being in the minority. what if a video compiled of clips from the bin
+                    </p>
+                    <p>
+                        <strong>notes:</strong> this is a school project. i am in no way claiming any of these clips as my own. these clips are simply compiled in a montage to create a new meaning!
+                    </p>
+                    <p>Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favour of fair use.</p>
+                    <div class="arrow"><a href="gamb.html">➜ next page</a></div>
+                </div>
+            </div>
+            <div class="reminder">
+                <div class="remcontent">
+                    <div class="savetext">make sure you [CMD+S!]</div>
+                    <div class="saveimg">
+                        <img src="blinkiesCafe-iu.gif" alt="blinkie save" class="center-gif" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--update/footer-->
+        <div class="update">last updated 12/9/24</div>
+    </body>
+</html>
