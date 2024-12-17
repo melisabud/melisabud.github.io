@@ -30,14 +30,39 @@
                 height: auto;
                 box-sizing: border-box;
             }
-            img {
-                width: 50%;
+            .projectvid {
+                display: flex;
                 border: 1px solid var(--mid-color);
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                height: auto;
+                position: static;
+                margin: auto;
+                overflow: visible;
+            }
+            .iframe {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                border: 0;
+            }
+            .projectimg img {
+                width: 40%;
+                border: 1px solid var(--mid-color);
+            }
+            .projectimg img:hover {
+                width: 40%;
+                filter: brightness(1);
             }
             .arrow {
                 display: flex;
                 font-size: medium;
                 justify-content: end;
+            }
+            h1 {
+                text-align: center;
             }
         </style>
     </head>
@@ -78,10 +103,21 @@
                         <div class="imagetitle"><p>the arduino nostalgia gamble</p></div>
                     </div>
                     <br />
-                    <div class="projectimg">
-                        <p>insert vid here</p>
+                    <div class="projectvid">
+                        <iframe
+                            width="560" height="315"
+                            src="https://www.youtube.com/embed/c9GvEunDTa8?si=l6Kx1vhyY0EThcob"
+                            title="yt vid"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen></iframe>
                     </div>
-                    <div class="subtext"><p>the arduino board nostalgia gamble! the loser gets rickrolled</p></div>
+                    <div class="subtext"><p>video to be changed</p></div>
+                    <div class="projectimg">
+                        <img src="arduinoboard.jpg">
+                    </div>
+                    <div class="subtext"><p>the arduino mini board! red LED lights up when loser is rickrolled</p></div>
+                    <h1><a href="projection4.zip">[the code]</a></h1>
                     <p>
                         <strong>statement:</strong> i wanted to create a fun little device that has a game-like
                         feature to it when people interact with it. with a randomizer coded in, the person who presses
@@ -89,10 +125,11 @@
                     </p>
                     <p>
                         <strong>notes:</strong> there are five results a person can get: rickroll, piano cat, 
-                        oo ee oo ah ah ting tang walla walla bing bang, caramelldansen, and nyan cat. nyan cat being my 
+                        witch doctor, caramelldansen, and nyan cat. nyan cat being my 
                         favorite! the rickroll will light up a red LED, indicating a "game over." blast throught 
                         the past with this lil fun gadget!
                     </p>
+                    <p>Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favour of fair use.</p>
                     <div class="arrow"><a href="ref.html">➜ next page</a></div>
                 </div>
             </div>
@@ -107,6 +144,6 @@
         </div>
 
         <!--update/footer-->
-        <div class="update">last updated 12/9/24</div>
+        <div class="update">last updated 12/16/24</div>
     </body>
 </html>
