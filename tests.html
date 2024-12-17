@@ -37,10 +37,34 @@
             .template {
                 color: #d5db27;
             }
+            .template:hover {
+                color: #f8ff2c;
+                text-shadow: 0px 0px 4px var(--dkest-color);
+            }
             .arrow {
                 display: flex;
                 font-size: medium;
                 justify-content: end;
+            }
+            .purposerror {
+                color: red;
+                display: flex;
+                font-size: medium;
+                justify-content: center;
+            }
+            .purposerror:hover {
+                color: #ff9b9b;
+            }
+            .projectimg {
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                height: auto;
+                box-sizing: border-box;
+            }
+            .projectimg img {
+                width: 50%;
+                border: 1px solid var(--mid-color);
             }
         </style>
     </head>
@@ -78,8 +102,10 @@
                     <p>you've clicked onto my testing page!</p>
                     <p>this is just where i test coding stuff and leave notes yep</p>
                     <a href="template.html"><h2 class="template">template</h2></a>
+                    <a href="error12345"><h3 class="purposerror">PURPOSEFUL 404 ERROR</h3></a>
                     <div class="arrow"><a href="bio.html">➜ next page</a></div>
                     <div class="arrow"><a href="index.html">⌂ home</a></div>
+
                     <br />
                     <h1>Hh</h1>
                     <h2>Hh</h2>
@@ -88,7 +114,7 @@
                     <h5>Hh</h5>
                     <h6>Hh</h6>
                     <br />
-                    <img src="html">
+                    <div class="projectimg"><img src="madoka.gif" alt="madoka kaname winking" /></div>
                     <p>
                         on the main page, i'm having a hilariously hard time trying to figure out how to center the
                         butterfly gif when it's in "media" (phone) mode and it also loses its ratio when you decrease
@@ -114,6 +140,6 @@
         </div>
 
         <!--update/footer-->
-        <div class="update">last updated 12/9/24</div>
+        <div class="update">last updated 12/16/24</div>
     </body>
 </html>
